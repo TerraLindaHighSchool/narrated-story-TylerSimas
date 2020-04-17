@@ -77,5 +77,17 @@ public class Space extends World
     {
         Protagonist protagonist = new Protagonist();
         addObject(protagonist,144,202);
+
+        Button button = new Button();
+        addObject(button,144,202);
+        protagonist.setLocation(121,372);
+        button.setLocation(124,374);
+        protagonist.setLocation(107,218);
+        button.setLocation(75,379);
+        button.setLocation(94,378);
+        button.setLocation(100,380);
+        button.setLocation(95,378);
+        button.setLocation(103,383);
+        button.setLocation(106,378);
     }
 }
